@@ -1,0 +1,6 @@
+:root {
+    --cor-primaria: rgba(192, 130, 149, 0.904);
+    --cor-secundaria: rgba(224, 188, 199, 0.904);
+    --cor-fundo: rgb(241, 241, 241);
+    --mobile-padding: 30px;
+}

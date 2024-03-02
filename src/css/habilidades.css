@@ -1,0 +1,32 @@
+.habilidades {
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.habilidades .container .titulo {
+    margin-top: 90px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 160px;
+}
+
+.habilidade {
+    margin: 0 auto;
+    max-width: 350px;
+    transition: 0.3s ease-in-out;
+}
+
+.habilidade:hover{
+    color: var(--cor-primaria);
+    border-bottom: 3px solid var(--cor-primaria)
+}
+
+.habilidade .logo {
+    font-size: 90px;
+}

@@ -1,0 +1,64 @@
+
+section.projects {
+    height: 100vh;
+   background-color: black;
+}
+
+
+
+section.projects .interface .titulo {
+    text-align: center;
+    color: #fff;
+    padding-top: 90px;
+}
+
+section.projects .flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.img-project{
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    border: 1px solid rgba(145, 144, 144, 0.938);
+}
+
+.img-project:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(192, 130, 149, 0.329);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay a {
+    color: #fff;
+    margin-top: 90px;
+}
